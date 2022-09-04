@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'beclave_bold_demoregular';
+    src: url('beclave_demo-webfont.woff2') format('woff2'),
+         url('beclave_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
