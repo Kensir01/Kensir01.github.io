@@ -100,7 +100,8 @@
     
     }
     .card.about::before{
-        content: "About Me";
+        content: "ABOUT ME";
+        color: var(--mygray);
         position: absolute;
         width: calc(2rem - 5px);
         height: calc(100% - 10px);
@@ -116,12 +117,12 @@
         padding-bottom: 10px;
         padding-right: 5px;
         font-weight: 900;
-        letter-spacing: .3rem;
+        /* letter-spacing: .3rem; */
         transition: all 350ms ease-in-out;
     }
     
     .card.about:hover:before, .card.about:active:before{
-        content: "About Me";
+        content: "ABOUT ME";
         position: absolute;
         width: calc(100% - .5rem);
         height: calc(100% - 10px);
@@ -136,14 +137,14 @@
         justify-content: flex-end;
         padding-bottom: 10px;
         font-weight: 900;
-        letter-spacing: .3rem;
+        /* letter-spacing: .3rem; */
         z-index: -1;
     }
     .card.about:hover div , .card.about:active div{
         color: var(--mygray);
     }
     .card.about:hover svg , .card.about:active svg{
-        stroke: var(--mygray);
+        fill: var(--mygray);
     }
     .card.about:hover , .card.about:active{
         background-color: transparent;
@@ -163,12 +164,31 @@
         line-height: 3rem;
     }
     
-    .card.about svg{
-        width: 50px;
+    .aboutpc{
+        width: 100px;
         position: absolute;
-        bottom: 20px;
-        left: 50%;
+        bottom: 27px;
+        left: 61%;
         transform: translate(-80%);
+        fill: var(--myred);
+        stroke: var(--mygray);
+    }
+
+    .popup {
+        position: absolute;
+        top: 116px;
+        left: 51px;
+        width: 60px;
+        fill: var(--myred);
+        stroke: var(--mygray);
+    }
+    
+    .roll {
+        position: absolute;
+        top: 132px;
+        left: 57px;
+        width: 60px;
+        fill: var(--mygray);
         stroke: var(--myred);
     }
     
@@ -208,7 +228,7 @@
         transition: all 500ms ease-in-out;
     }
     .card.projects2::before{
-        content: "Projects";
+        content: "PROJECTS";
         position: absolute;
         width: calc(100% - 10px);
         height: 2rem;
@@ -222,11 +242,11 @@
         padding-left: 10px;
         padding-bottom: 10px;
         font-weight: 900;
-        letter-spacing: .3rem;
+        /* letter-spacing: .3rem; */
         transition: all 350ms ease-in-out;
     }
     .card.card.projects2:hover::before, .card.card.projects2:active::before{
-        content: "Projects";
+        content: "PROJECTS";
         position: absolute;
         width: calc(100% - 10px);
         height: 65%;
@@ -240,7 +260,7 @@
         padding-left: 10px;
         padding-bottom: 10px;
         font-weight: 900;
-        letter-spacing: .3rem;
+        /* letter-spacing: .3rem; */
         transition: all 350ms ease-in-out;
     }
     
@@ -273,6 +293,7 @@
         fill: var(--myred);
         stroke: var(--myred);
     }
+   
     .p2-endtag{
         display: block;
         position: absolute;
@@ -299,7 +320,7 @@
     
     }
     .card.contacts::before{
-        content: "Contacts";
+        content: "CONTACTS";
         position: absolute;
         width: calc(100% - 15px);
         height: calc(2rem - 15px);
@@ -315,9 +336,9 @@
         padding-top: 5px;
         padding-left: 10px;
         font-weight: 900;
-        letter-spacing: .3rem;
+        /* letter-spacing: .3rem; */
         transition: all 350ms ease-in-out;
-        color: black;
+        color: var(--mygray);
     }
     .card.contacts div{
         padding-top: 2rem;
