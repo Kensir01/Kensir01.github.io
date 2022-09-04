@@ -395,12 +395,12 @@
     }
 }
 
-/* @media (min-width: 1080px) {
+@media (max-width: 1360px) {
 
     .popup {
         position: absolute;
-        top: 245px;
-        left: 82px;
+        top: 115px;
+        left: 47px;
         width: 60px;
         fill: var(--myred);
         stroke: var(--mygray);
@@ -408,13 +408,13 @@
     
     .roll {
         position: absolute;
-        top: 260px;
-        left: 87px;
+        top: 131px;
+        left: 54px;
         width: 60px;
         fill: var(--mygray);
         stroke: var(--myred);
     }
-} */
+}
 
 @media (max-height: 780px) {
     .circle{
