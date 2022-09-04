@@ -159,7 +159,7 @@
     position: absolute;
     top: 134px;
     left: 61px;
-    width: 50px;
+    width: 40px;
     fill: var(--mygray);
     stroke: var(--myred);
 }

@@ -395,7 +395,7 @@
     }
 }
 
-@media (max-width: 1360px) {
+@media (min-width: 1360px) {
 
     .popup {
         position: absolute;
@@ -410,11 +410,12 @@
         position: absolute;
         top: 131px;
         left: 54px;
-        width: 60px;
+        width: 50px;
         fill: var(--mygray);
         stroke: var(--myred);
     }
 }
+
 
 @media (max-height: 780px) {
     .circle{
