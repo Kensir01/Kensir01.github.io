@@ -156,9 +156,9 @@
 
 .roll {
     position: absolute;
-    top: 132px;
-    left: 57px;
-    width: 60px;
+    top: 134px;
+    left: 61px;
+    width: 50px;
     fill: var(--mygray);
     stroke: var(--myred);
 }
