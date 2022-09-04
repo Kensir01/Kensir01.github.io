@@ -89,7 +89,7 @@
     padding-bottom: 10px;
     padding-right: 5px;
     font-weight: 900;
-    /* letter-spacing: .3rem; */
+    letter-spacing: .1rem;
     transition: all 350ms ease-in-out;
 }
 
@@ -109,7 +109,7 @@
     justify-content: flex-end;
     padding-bottom: 10px;
     font-weight: 900;
-    /* letter-spacing: .3rem; */
+    letter-spacing: .1rem;
     z-index: -1;
 }
 .card.about:hover div , .card.about:active div{
@@ -217,7 +217,7 @@
     padding-left: 10px;
     padding-bottom: 10px;
     font-weight: 900;
-    /* letter-spacing: .3rem; */
+    letter-spacing: .1rem;
     transition: all 350ms ease-in-out;
     z-index: 3;
 }
@@ -236,7 +236,7 @@
     padding-left: 10px;
     padding-bottom: 10px;
     font-weight: 900;
-    /* letter-spacing: .3rem; */
+    letter-spacing: .1rem;
     transition: all 350ms ease-in-out;
 }
 
@@ -304,7 +304,7 @@
     padding-bottom: 10px;
     padding-right: 5px;
     font-weight: 900;
-    /* letter-spacing: .3rem; */
+    letter-spacing: .1rem;
     transition: all 350ms ease-in-out;
     color: var(--mygray);
     z-index: 2;
