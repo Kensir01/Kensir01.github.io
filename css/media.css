@@ -5,6 +5,7 @@
         min-height: 150px !important;
     }
 }
+
 @media (min-width: 900px) {
     .card{
         position: relative;
@@ -390,6 +391,27 @@
 
     .card::before{
         box-shadow: inset 0px 0px 7px 1px rgba(0, 0, 0, .3);
+    }
+}
+
+@media (min-width: 1080px) {
+
+    .popup {
+        position: absolute;
+        top: 245px;
+        left: 82px;
+        width: 60px;
+        fill: var(--myred);
+        stroke: var(--mygray);
+    }
+    
+    .roll {
+        position: absolute;
+        top: 260px;
+        left: 87px;
+        width: 60px;
+        fill: var(--mygray);
+        stroke: var(--myred);
     }
 }
 
