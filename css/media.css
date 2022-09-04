@@ -185,6 +185,7 @@
     }
     
     .roll {
+        font-family: 'beclave_bold_demoregular';
         position: absolute;
         top: 210px;
         left: 60px;
