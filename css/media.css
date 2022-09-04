@@ -177,8 +177,8 @@
 
     .popup {
         position: absolute;
-        top: 116px;
-        left: 51px;
+        top: 195px;
+        left: 55px;
         width: 60px;
         fill: var(--myred);
         stroke: var(--mygray);
@@ -186,8 +186,8 @@
     
     .roll {
         position: absolute;
-        top: 132px;
-        left: 57px;
+        top: 210px;
+        left: 60px;
         width: 60px;
         fill: var(--mygray);
         stroke: var(--myred);
@@ -394,7 +394,7 @@
     }
 }
 
-@media (min-width: 1080px) {
+/* @media (min-width: 1080px) {
 
     .popup {
         position: absolute;
@@ -413,7 +413,7 @@
         fill: var(--mygray);
         stroke: var(--myred);
     }
-}
+} */
 
 @media (max-height: 780px) {
     .circle{
