@@ -417,10 +417,29 @@
 }
 
 
-@media (max-height: 780px) {
+@media (min-height: 780px) {
     .circle{
         display: none;
     }
+
+    .popup {
+        position: absolute;
+        top: 200px;
+        left: 65px;
+        width: 60px;
+        fill: var(--myred);
+        stroke: var(--mygray);
+    }
+    
+    .roll {
+        position: absolute;
+        top: 218px;
+        left: 75px;
+        width: 50px;
+        fill: var(--mygray);
+        stroke: var(--myred);
+    }
+
 }
 
 @media (min-height: 600px) and (min-width: 900px) {
